@@ -1,0 +1,41 @@
+@import 'RESET.scss';
+
+//-------------root-------------
+body {
+	font-family: 'Work Sans';
+	background: var(--main-color);
+}
+
+:root {
+	--main-color:#121B25;
+	--accent-color:#1AA090;
+}
+
+.noScroll {
+	overflow: hidden;
+}
+
+._title {
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: clamp(1.875rem, 0.811rem + 2.43vw, 3rem);
+	line-height: 126%;
+	text-transform: capitalize;
+	color: white;
+}
+
+._text {
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: clamp(0.875rem, 0.696rem + 0.48vw, 1.125rem);
+	line-height: 170%;
+	color: #D6D6D6;
+}
+
+._all-container {
+	max-width: 1450px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
