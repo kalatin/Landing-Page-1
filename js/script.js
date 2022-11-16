@@ -29,3 +29,13 @@ const swiper = new Swiper('.popular-slider', {
 		}
 	 }
 });
+
+const swiper2 = new Swiper('.slider-reviews', {
+	spaceBetween:20,
+	slidesPerView:1,
+	autoHeight:true,
+	navigation: {
+		nextEl: '.slider-reviews-next',
+		prevEl: '.slider-reviews-prev',
+	 },
+});
