@@ -10,3 +10,22 @@ function blockScroll (elem,term = true) {
 		elem.classList.remove('noScroll')
 	} 
 }
+
+//--------------------SWIPER-------------------
+
+const swiper = new Swiper('.popular-slider', {
+	spaceBetween:20,
+	slidesPerView:1,
+	navigation: {
+	  nextEl: '.popular-slider-next',
+	  prevEl: '.popular-slider-prev',
+	},
+	breakpoints: {
+		992: {
+			slidesPerView:3,
+		},
+		686: {
+			slidesPerView:2,
+		}
+	 }
+});
