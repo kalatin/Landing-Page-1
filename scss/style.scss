@@ -108,6 +108,9 @@ body {
 			border-radius: 5px;
 			background: var(--accent-color);
 			margin-right: 5px;
+			&:hover {
+				background: #158578;
+			}
 		}
 	}
 	
@@ -530,6 +533,9 @@ body {
 			text-transform: capitalize;
 			color: #FFFFFF;
 			border-radius: 0 10px 10px 0;
+			&:hover {
+				background: #158a7c;
+			}
 		}
 	}
 }
@@ -938,6 +944,7 @@ body {
 	}
 	svg {
 		fill: white;
+		cursor: pointer;
 	}
 }
 .slider-reviews-prev {
@@ -1003,6 +1010,7 @@ body {
 		border-radius: 10px;
 		&:hover {
 			cursor: pointer;
+			background: #158477;
 		}
 	}
 }
@@ -1099,6 +1107,7 @@ body {
 		border-radius: 10px;
 		&:hover {
 			cursor: pointer;
+			background: #168376;
 		}
 	}
 }
@@ -1153,7 +1162,16 @@ body {
 	&__logos {
 		width: 173px;
 		display: grid;
+		align-items: center;
 		grid-template-columns: repeat(4,1fr);
+		svg {
+			&:hover {
+				cursor: pointer;
+				path {
+					fill: white;
+				}
+			}
+		}
 	}
 
 	&__lists {

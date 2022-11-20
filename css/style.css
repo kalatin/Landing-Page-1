@@ -163,6 +163,9 @@ body {
   background: var(--accent-color);
   margin-right: 5px;
 }
+.header__buttons button:hover {
+  background: #158578;
+}
 .header__burger {
   display: none;
   position: relative;
@@ -530,6 +533,9 @@ body {
   color: #FFFFFF;
   border-radius: 0 10px 10px 0;
 }
+.buy__button button:hover {
+  background: #158a7c;
+}
 
 .buy__block:first-child.open {
   background: white;
@@ -875,6 +881,7 @@ body {
 }
 .slider-reviews-btn svg {
   fill: white;
+  cursor: pointer;
 }
 
 .slider-reviews-prev {
@@ -938,6 +945,7 @@ body {
 }
 .help__button:hover {
   cursor: pointer;
+  background: #158477;
 }
 
 @media (max-width: 1100px) {
@@ -1002,6 +1010,7 @@ body {
 }
 .start__button:hover {
   cursor: pointer;
+  background: #168376;
 }
 
 @media (max-width: 968px) {
@@ -1045,7 +1054,14 @@ body {
 .footer__logos {
   width: 173px;
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(4, 1fr);
+}
+.footer__logos svg:hover {
+  cursor: pointer;
+}
+.footer__logos svg:hover path {
+  fill: white;
 }
 .footer__lists {
   display: grid;
